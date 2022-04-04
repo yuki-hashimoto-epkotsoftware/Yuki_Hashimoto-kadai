@@ -1,0 +1,279 @@
+@charset "UTF-8";
+img{
+  max-width: 100%;
+  height: auto;
+  width /***/:auto;
+}
+
+
+body{
+  color: black;
+  font-size:16px;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #060606;
+}
+body, header, footer, main, section, div, p, li, dt, dd, a{
+  margin:10px;
+  padding:10px;
+}
+/* header, footer, main, section{
+  border: 2px solid #f00;
+}
+div, p{
+  border: 1px solid #00f;
+}
+li, dt, dd, a{
+  border: 1px dotted #0f0;
+} */
+
+.header{
+  background-image: url(../img/main_visual_2-0x0.jpg);
+  background-size: cover;
+  width: 1280px;
+  height: 900px;
+  margin: 0;
+  position: relative;
+}
+.header_wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+.header_logo{
+  position: relative;
+  width: 266px;
+  height: 72px;
+}
+.header_menu{
+  font-size: 14px;
+  display: flex;
+  position: absolute;
+  bottom:  5px;
+  right: 0;
+}
+.header_menu a{
+  color: #fff;
+}
+
+.main{
+  width: 1280px;
+  margin: 0;
+  padding: 0;
+}
+.about{
+  width: 1280px;
+  height: 916px;
+  padding: 0 ; 
+  margin: 0 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+.about_tabi{
+  width: 816px;
+  height: 696px;
+}
+.about_tabi h1{
+  font-size: 44px;
+  width: 816px;
+  height: 74px;
+  font-weight: normal;
+  text-align: center;
+}
+.about_tabi p{
+  font-size: 20px;
+  position: relative;
+  left: 180px;
+  margin-top: 15px;
+  line-height: 30px;
+}
+#about_logo{
+  width: 230px;
+  height: 54px;
+  position: relative;
+  left: 260px;
+  margin-bottom: 30px;
+}
+/* product */
+.product{
+  margin: 0;
+  padding: 0;
+  width: 1280px;
+  height: 1300px;
+}
+.product_head{
+  display: flex;
+  font-family: "Gill Sans Std Book", sans-serif;;
+}
+.product_title{
+  background-image: url(../img/icon/sectionTitle-underLine@2x.png);
+  background-repeat: no-repeat;
+  background-size: 68px 8px;
+  background-position: bottom 25% left ;
+  font-size: 30px;
+  font-weight: normal;
+  margin-left: 100px;
+}
+.product_more{
+  width: 162px;
+  height: 46px;
+  background-image: url(../img/icon/button-arrow@2x.png);
+  background-repeat: no-repeat;
+  background-position: 90%  50%;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 700px;
+  padding-top: 15px;
+  border: solid 1px #13191d;
+}
+.product_list{
+  width: 1000px;
+  height: 1033px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  left: 120px;
+}
+.product_item{
+  width: 241px;
+  height: 324px;
+}
+.product_subtitle{
+  line-height: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  position: relative;
+  left: 55px;
+}
+/* news */
+.news{
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+.news_item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.news_picture{
+  width: 322px;
+  height: 181px;
+}
+.news_sentence{
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  position: relative;
+  top: 50px;
+}
+.news_sentence h2{
+  font-size: 18px;
+  line-height: 150%;
+}
+.news_sentence p{
+  color: #656c6e;
+}
+#news_date{
+  font-size: 12px;
+  width: 70px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 5px;
+}
+#news_text{
+  font-size: 13px;
+  line-height: 150%;
+  position: relative;
+  right: 10px;
+  top: 10px;
+}
+.top{
+  display: flex;
+  justify-content: center;
+}
+.top a{
+  width: 55px;
+  height: 55px;
+  position: relative;
+top: 45px;
+}
+
+
+.footer{
+  width: 1280px;
+  padding: 0;
+  margin: 0;
+}
+.share{
+  height: 116px;
+  margin: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.share a{
+  width: 162px;
+  height: 46px;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  line-height: 22px;
+}
+#facebook{
+  color: #4878a9;
+  border: solid 1px #4871a9;
+}
+#twitter{
+  color: #70bdd3;
+  border: solid 1px #70bdd3;
+}
+#bookmark{
+  color: #2f9bcd;
+  border: solid 1px #2f9bcd;
+}
+.footer_menu{
+ background-color: #939899;
+ margin: 0;
+}
+.footer_menu ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_menu a{
+  font-size: 14px;
+  color: #fff;
+}
+.copy{
+  background-color: #656c6e;
+  height: 159px;
+  margin: 0;
+}
+.copy_logo{
+  width: 90px;
+  height: 89px;
+  position: relative;
+  left: 150px;
+  top: 15px;
+
+}
+.copyright{
+  width: 437px;
+  height: 10px;
+  font-size: 10px;
+  color: #FFF;
+  position: relative;
+  left: 550px;
+  bottom: 40%;
+}
